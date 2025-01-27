@@ -4,12 +4,12 @@ import React from 'react'
 import Image from 'next/image'
 
 const advisors = [
-  { name: 'ADOLFO I. OLIVAN', tenure: '1984 - 1988', image: '/images/advisors/ADOLFO_OLIVAN_JPG.jpeg' },
-  { name: 'EMETERIO L. AMAN', tenure: '2006 - 2007', image: '/images/advisors/EMETERIO AMAN_JPG.jpg' },
-  { name: 'ALBERTO R. BERCASIO', tenure: '2008 - 2011', image: '/images/advisors/ALBERTO BERCASIO_JPG.jpg' },
-  { name: 'PHILIP T. IMPERIAL', tenure: '2011 - 2012', image: '/images/advisors/PHILIP IMPERIAL_JPG.jpg' },
-  { name: 'GILBERT N. ALBERO', tenure: '2015 - 2017', image: '/images/advisors/GILBERT ALBERO_JPG.jpg' },
-  { name: 'FERDINAND D. SIA', tenure: '2018 - 2020', image: '/images/advisors/FERDINAND SIA_JPG.jpg' },
+  { name: 'ADOLFO I. OLIVAN', tenure: '1984 - 1988', image: '/images/advisors/adolfo_olivan.jpeg' },
+  { name: 'EMETERIO L. AMAN', tenure: '2006 - 2007', image: '/images/advisors/emeterio_aman.jpg' },
+  { name: 'ALBERTO R. BERCASIO', tenure: '2008 - 2011', image: '/images/advisors/alberto_bercasio.jpg' },
+  { name: 'PHILIP T. IMPERIAL', tenure: '2011 - 2012', image: '/images/advisors/philip_imperial.jpg' },
+  { name: 'GILBERT N. ALBERO', tenure: '2015 - 2017', image: '/images/advisors/gilbert_albero.jpg' },
+  { name: 'FERDINAND D. SIA', tenure: '2018 - 2020', image: '/images/advisors/ferdinand_sia.jpg' },
 ]
 
 export default function BoardOfAdvisors() {
