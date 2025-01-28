@@ -9,7 +9,7 @@ const advisors = [
   { name: 'ALBERTO R. BERCASIO', tenure: '2008 - 2011', image: '/images/advisors/alberto_bercasio.jpg' },
   { name: 'PHILIP T. IMPERIAL', tenure: '2011 - 2012', image: '/images/advisors/philip_imperial.jpg' },
   { name: 'GILBERT N. ALBERO', tenure: '2015 - 2017', image: '/images/advisors/gilbert_albero.jpg' },
-  { name: 'FERDINAND D. SIA', tenure: '2018 - 2020', image: '/images/advisors/ferdinand_sia.jpg' },
+  { name: 'FERDINAND D. SIA', tenure: '2018 - 2020', image: '/images/advisors/ferdinand_sia.JPG' },
 ]
 
 export default function BoardOfAdvisors() {
