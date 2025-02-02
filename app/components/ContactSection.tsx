@@ -28,7 +28,7 @@ export default function ContactUs() {
             <div className="md:flex-1 bg-gray-50 rounded-lg shadow-md overflow-hidden">
               <div className="bg-blue-600 p-6 text-white">
                 <h3 className="text-2xl font-semibold mb-2">Send Us a Message</h3>
-                <p>We'd love to hear from you. Fill out the form below!</p>
+                <p>We&apos;d love to hear from you. Fill out the form below!</p>
               </div>
               <form action={handleSubmit} className="p-8 space-y-6">
                 <div>
