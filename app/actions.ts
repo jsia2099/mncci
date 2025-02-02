@@ -26,7 +26,27 @@ export async function getLatestFacebookPosts(): Promise<FacebookPost[]> {
 export async function submitContactForm(formData: FormData) {
   // Here you would typically send this data to your backend or API
   console.log("Form submitted with data:", Object.fromEntries(formData))
-
+  
+  const body = JSON.stringify({
+    access_key: "bcd529e7-8e06-44a0-a406-5d279b68bf2b",
+    name: formData.get('name'),
+    email: formData.get('email'),
+    phone: formData.get('phone'),
+    message: formData.get('message'),
+  })
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body
+  });
+  const result = await response.json();
+  if (result.success) {
+    console.log(result);
+  }
+  
   // Simulate a delay
   await new Promise((resolve) => setTimeout(resolve, 1000))
 

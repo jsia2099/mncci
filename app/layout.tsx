@@ -5,6 +5,7 @@ import { Suspense } from 'react'
 export const metadata = {
   title: 'Metro Naga Chamber of Commerce and Industry',
   description: 'Empowering businesses for a better tomorrow',
+  keywords: 'Metro Naga Chamber of Commerce and Industry, Naga City Chamber, Metro Naga Chamber of Commerce, Chamber of Commerce',
 }
 
 export default function RootLayout({
